@@ -1,0 +1,23 @@
+{
+  "name": "bistro-boss-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mailgun.js": "^9.3.0",
+    "mongodb": "^5.5.0",
+    "stripe": "^14.5.0"
+  }
+}
